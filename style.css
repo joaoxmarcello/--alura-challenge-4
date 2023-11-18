@@ -6,6 +6,7 @@ body {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
+    padding-bottom: 100px;
   }
   
   .container {
@@ -65,4 +66,12 @@ body {
   .form-wrapper button:hover {
     opacity: 0.8;
   }
-  
+  .filme-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .filme-nome {
+    color: white;
+  }
